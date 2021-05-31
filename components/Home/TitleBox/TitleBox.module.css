@@ -1,0 +1,10 @@
+.titleBox {
+    padding-left: 10%;
+    margin-top:10px;
+}
+
+.titleBox h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}

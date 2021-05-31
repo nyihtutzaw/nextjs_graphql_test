@@ -1,0 +1,11 @@
+.navContainer{
+    height: 80px;
+    background: rgb(27, 11, 11);
+    padding-left: 5%;
+}
+
+.navContainer h3 {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+}

@@ -1,0 +1,17 @@
+.container {
+    padding-left:5%;
+    padding-right: 5%;;
+}
+
+.loadButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    
+}
+
+.button {
+    width:40%;
+    background: yellow;
+}

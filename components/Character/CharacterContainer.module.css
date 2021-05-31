@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    overflow-y: hidden;
+    
+}
+
+.descriptionItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:50%;
+}
+
+.descriptionItem p {
+    font-size:20px;
+}

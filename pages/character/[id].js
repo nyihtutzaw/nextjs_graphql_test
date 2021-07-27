@@ -1,6 +1,7 @@
-import { useContext, useEffect } from 'react';
+import { Fragment, useContext, useEffect } from 'react';
 import { useRouter } from 'next/router'
 import DefaultErrorPage from 'next/error'
+import Head from 'next/head';
 import { getCharacters, getCharacterByID } from '../../lib/services'
 import CharacterContainer from './../../components/Character/CharacterContainer.js';
 import FullScreenLoader from './../../components/ui/FullScreenLoader.js';
@@ -26,7 +27,14 @@ export default function Character({ character }) {
     }
 
     return (
-        <CharacterContainer />
+        <Fragment>
+            <Head>
+                <title>{character.name}</title>
+                <meta name={character.name} content={`${character.name} Rick and Morty character`} />
+            </Head>
+            <CharacterContainer />
+        </Fragment>
+
     )
 }
 

@@ -5,11 +5,11 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <MainContainer>
-      
+
       <CharacterContextProvider>
         <Component {...pageProps} />
       </CharacterContextProvider>
-      
+
     </MainContainer>
   )
 
